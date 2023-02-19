@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 
 class KivyRecipe(CythonRecipe):
-    version = "0e77e2ab94e54ebaf1f232f5dd66d4d103e08fbb"  # 2.1.0 + camera enhancements
+    version = "816a96ba68e4b9ae775338a0f0d749aa1b144dc3"  #2.2.0.dev0
     url = "https://github.com/kivy/kivy/archive/{version}.zip"
     library = "libkivy.a"
     depends = ["sdl2", "sdl2_image", "sdl2_mixer", "sdl2_ttf", "ios",
